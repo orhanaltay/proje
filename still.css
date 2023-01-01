@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(179, 179, 202);
+
+}
+.div-ozel{
+    background-color: aquamarine;
+    -webkit-text-fill-color: antiquewhite;
+}
+
+.div-ozel{
+ border-width: 10px;
+ border-color: blue;
+ border-style: dashed;
+}
+.div-ozal{
+    background-color: blue;
+    -webkit-text-fill-color: blueviolet;
+    border-color: aqua;
+    border-style: ridge;
+    border-width: 20px;
+}
+.div-sa{
+    background-color: azure;
+    border-style: dotted;
+    border-width: 10px;
+    -webkit-text-fill-color: aquamarine;
+}
+.div-a{
+    background-color: brown;
+    border-style: ridge;
+    border-width: 10px;
+    -webkit-text-fill-color: blueviolet;
+}
+.div-annem{
+    background-color: aquamarine;
+    -webkit-text-fill-color: brown;
+    border-style: inset;
+    border-width: 10px;
+    border-color: blue;
+}
+.spam-a{
+    background-color: deepskyblue;
+    -webkit-text-fill-color: darkorchid;
+    border-style: dotted;
+    border-color: cadetblue;
+    border-width: 10px;
+}
+.anne{
+    user-select: none;
+}
