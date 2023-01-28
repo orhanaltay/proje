@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: white;
+    padding: 0 100px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+nav h1 {
+    font-size: 30px;
+}
+nav button {
+    padding: 15px;
+    border-radius: 60px;
+    background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+color: white;
+cursor: pointer;
+font-size: 16px;
+}
+nav ul li {
+    cursor: pointer;
+    transition: all 0.5s;
+    font-size: 19px;
+}
+nav ul li:hover {
+    color: crimson;
+    text-shadow: 2px 2px 30px crimson;
+    transition: all 0.5s;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px; 
+}
+
+.slogan {
+    width: 700px;
+}
+.about {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+.about button {
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    font-size: 15px;
+    font-weight: 600px;
+    color: white;
+}
+
+.hero img {
+    width: 600px;
+}
+.slogan h1 {
+    font-size: 60px;
+    line-height: 80px;
+    letter-spacing: -3px;
+}
+.slogan h1 span {
+    color: #4158D0;
+}
+.markalar {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.cardcontaner {
+}
+.katagori {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.katagori li {
+    background-color: gray;
+    padding: 10px;
+    border-radius: 60px; 
+    list-style: none;  
+}
+.card {
+display: flex;
+flex-wrap: wrap;
+margin-top: 50px;
+}
+.cards{
+   width: 280px;
+   min-height: 400px;
+   background-color: white;
+   padding: 10px;
+   border-radius: 10px;
+   color: #000;
+}
+.cards img {
+    width: 100%;
+}
+.card h1 {
+font-size: 24px;
+}
+.resimcik {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid  gray;
+    padding-bottom: 5px;
+}
+.para {
+   height:50px ;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+.para img {
+   width: 30px;
+}
+.resimcik p {
+       color: gray;
+}
+.para p {    
+      color: #4158D0;
+}
+.saat{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.saat p {
+    background-color: grey;
+    border-radius: 20px;
+    padding: 10px;
+}
+.saat button {
+    background-color: white;
+    border: none;
+    color: #4158D0;  
+    border-radius:  10px;
+    transition: all 0.5s;  
+} 
+.saat button:hover {
+    background-color: grey;
+    color: #000;
+    transition: all 0.5s;
+}
+
